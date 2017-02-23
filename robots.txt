@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /public/images/
+Disallow: /public/files/
+Disallow: /cgi-bin/
+Sitemap: https://rahulkr7370.github.io/sitemap.xml

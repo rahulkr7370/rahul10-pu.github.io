@@ -1,0 +1,35 @@
+---
+layout: index
+title: Home
+description: Rahul Kumar. programmer. Personal website. Includes blog posts and self written `about me`.
+---
+
+<h1 id="intro">Hi, my name is Rahul.<br>I love to design and develop Algorithms.</h1>
+<div class="clearfix">
+  <div class="column-half clearfix">
+      <h2>Featured projects</h2>
+      <h4><a href="https://github.com/rahul10-pu">Multiple Data Compresion and Decompression</a></h4>
+      <small>Use basic C programming concepts and bit manupulation for iterative datacompression and decompression.</small>
+      <h4><a href="https://github.com/rahul10-pu">Store data in structure-C language</a></h4>
+      <small>Store data using C language</small>
+      <h4><a href="https://github.com/rahul10-pu">Resume in java-script-Udacity</a></h4>
+      <small>A crashcourse in Udacity</small>
+      <h4><a href="https://github.com/rahul10-pu">Shopping Cart application</a></h4>
+      <small>Shopping Cart application in C using Structure & File I/O</small>
+      <h4><a href="https://github.com/rahul10-pu">in future..</a></h4>
+      <small>thats it...more in future</small>
+      <h4><a href="https://github.com/rahul10-pu">no more</a></h4>
+      <small>more in future</small>
+  </div>
+    <div class="column-half clearfix">
+        <h2>Latest posts</h2>
+        <ul class="latest-posts">
+          {% for post in site.posts limit:5 %}
+          <li>
+            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            <small>{{ post.date | date_to_string }}</small>
+          </li>
+          {% endfor %}
+    </ul>
+    </div>
+</div>

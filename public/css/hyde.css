@@ -1,0 +1,279 @@
+html {
+  letter-spacing: 0.005rem;
+  text-rendering: optimizelegibility;
+  line-height: 1.4;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* blog page */
+.blog-posts {
+  list-style-type: circle;
+}
+.blog-posts h3 {
+  margin-top: 0;
+  display: inline;
+}
+
+.blog-posts li {
+  padding-bottom: 1rem;
+}
+
+.blog h2 {
+ /*  display: table; */
+  display: inline;
+  margin: 0 auto;
+}
+
+.blog-posts li small {
+  font-size: 75%;
+  color: #999;
+}
+
+.blog-posts li a:hover {
+  text-decoration-style: bold;
+}
+
+
+/* index */
+#index-content {
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem 1.5rem;
+}
+.column-half {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.column-half h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.1rem;
+}
+
+.column-half ul.latest-posts {
+    padding: 0px;
+    list-style-type: circle;
+    margin-left: 1rem;
+}
+
+#intro {
+  line-height: 1;
+  text-align:center;
+}
+/* Small-Tablets */
+@media (min-width: 35.5em) {
+  #index-content {
+      padding: 4rem 1rem 1.5rem;
+  }
+}
+/* Tablets */
+@media (min-width: 48em) {
+  .column-half {
+      width: 50%;
+      float: left;
+      margin-bottom: 1.5em;
+      padding-right: 2em;
+  }
+  #index-content {
+      max-width: 80%;
+      padding: 4rem 1rem 1.5rem;
+  }
+  .column-half ul.latest-posts {
+      margin-left: 0px;
+  }
+}
+/* about */
+  .reading-block {
+    display: block;
+    margin: 0 auto;
+    max-width: 29em;
+  }
+  #about-content {
+      line-height: 1.5;
+      max-width: 53.3333em;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0.5rem 1rem 1.5rem;
+  }
+  #about-content h2 {
+      margin-bottom: 0.4em;
+  }
+  #fun-facts ul {
+      padding: 0px;
+      margin-left: 1rem;
+      list-style-type: circle;
+  }
+  @media (min-width: 35.5em) {
+    #about-content {
+        padding: 4rem 1rem 1.5rem;
+    }
+    #photo-and-caption #photo {
+        height: auto;
+    }
+
+    #photo-and-caption #photo {
+        width: 100%;
+        margin-top: 0;
+    }
+    #photo-and-caption {
+      float: left;
+      width: 40%;
+      margin-right: 10%;
+    }
+    #fun-facts {
+      float: left;
+      width: 50%;
+    }
+  }
+@media (min-width: 60em) {
+  #about-content {
+      padding: 4rem 1rem 1.5rem;
+  }
+  #photo-and-caption #photo {
+     border-width: 0.7em;
+   }
+
+  #photo-and-caption, #fun-facts {
+     float: none;
+     width: auto;
+     margin-right: 0;
+   }
+  .reading-block {
+    margin: 0 auto;
+    max-width: 34em;
+  }
+  .asymetrical-columns-left {
+    float: left;
+    width: 15em;
+    margin-right: 2em;
+  }
+
+  .asymetrical-columns-right {
+    float: left;
+  }
+}
+/* just to keep footer always at the bottom */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -142px; /* equal to footer height */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 142px;
+}
+/* footer */
+.footer {
+  clear: both;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid rgb(220, 220, 220);
+  background-color: rgb(247, 247, 247);
+}
+#foot-inner {
+  margin: 0 auto;
+  display: table;
+  width: 100%;
+}
+.feed {
+    background: url('/public/images/feed.png') no-repeat scroll 0px 0px / 16px 16px transparent;
+    display: inline-block;
+    margin: -2px 0px 0px 4px;
+    height: 16px;
+    width: 16px;
+    vertical-align: baseline;
+}
+.footer p{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  padding: 1em;
+}
+/* the twitter, linkedin.. signature */
+.contact-list {
+  display: none;
+}
+@media (min-width: 48em) {
+  .contact-list {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.2em;
+    display: block;
+  }
+}
+.contact-list li {
+  display: inline-block;
+  width: 25%;
+  padding: 0.2em;
+}
+
+.contact-list li a {
+  letter-spacing: .13rem;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  padding: 0.5em 0px;
+  background-color: rgb(103, 58, 131);
+  border-radius: 0.5em;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-list li a:hover {
+    text-decoration: none;
+    background-color: #0078e7;
+}
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content a{
+  font-weight: bold;
+}
+@media (min-width: 35.5em) {
+  .content {
+    max-width: 33rem;
+    padding-top:    3rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 48rem;
+    padding-top:    4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Avatar image */
+.rounded {
+  border-radius: 6px;
+}

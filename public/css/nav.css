@@ -1,0 +1,120 @@
+
+nav {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgb(103, 58, 131);
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.navbar {
+  line-height: 1.2;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav.hidden {
+    height: auto;
+  }
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 .7rem 0 .7rem;
+}
+
+nav li a {
+  font-size: .6rem;
+  letter-spacing: .13rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  display: inline-block;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav li.current a{
+    border-bottom: 3px solid rgb(173, 104, 216);
+}
+nav li:hover a{
+    border-bottom: 3px solid rgb(178, 155, 194);
+    text-decoration: none;
+}
+/* nav li.current a {
+  border-bottom: 3px solid rgb(173, 104, 216);
+  font-weight: bold;
+}*/
+
+/* nav li a:hover, nav li a:focus {
+  text-decoration: none;
+} */
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 120%;
+  }
+
+  header {
+    margin-bottom: 1.3rem;
+  }
+
+  nav {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .navbar {
+    position: fixed;
+  }
+  nav ul {
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+
+  nav li {
+    border: 0;
+    display: inline-block;
+  }
+  nav li:first-child {
+    margin-left: 0;
+  }
+  nav li a {
+    font-size: .7rem;
+    padding: 0.4rem 0 0.2rem 0;
+  }
+
+  nav li:last-child a {
+    padding-bottom: 0.2rem;
+  }
+}
+/* Font size adjusts */
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 137.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+      font-size: 140%;
+  }
+  nav li a {
+      font-size: .9rem;
+  }
+  .navbar {
+      line-height: 1.5;
+  }
+}

@@ -1,0 +1,33 @@
+# Dependencies
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink:  /blog/:title
+# relative_permalinks: true
+
+# Setup
+title:            Rahul Kumar
+tagline:          'Personal Website'
+description:      'This is the Personal Webpage of Rahul Kumar. It also links to his resume and blog.'
+url:              https://rahulkr7370.github.io
+baseurl:          /
+
+author:
+  name:           'Rahul Kumar'
+  twitter:        'iam_rahul'
+  url:            https://twitter.com/iam_rahul
+
+# paginate:         5
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude: [node_modules, gulpfile.js, package.json, Gemfile]
+# Google
+# http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf

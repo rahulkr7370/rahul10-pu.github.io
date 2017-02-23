@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navbar.html %}
+    <div id="about-content" class="clearfix page-wrap">
+      <div class="clearfix">
+  <div class="asymetrical-columns-left reading-block clearfix">
+    <div id="photo-and-caption">
+        <div id="photo">
+            <img src="/public/rahulkr7370.github.io/blob/master/16508737_1278453792233501_1798928498095622714_n.jpg" alt="Rahul's profile photo">
+          </div>
+           #<p>2nd year B.E student at <a href="http://ssgpurch.puchd.ac.in/uiet.php">Panjab University Swami Sarwanand Giri Regional Centre, Hoshiarpur, Punjab</a>.</p>
+    </div>
+</div>
+  <div class="asymetrical-columns-right reading-block">
+    {{ content }}
+  </div>
+</div>
+</div>
+{% include footer.html %}
+<!-- google analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-48894419-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+</body>
+</html>

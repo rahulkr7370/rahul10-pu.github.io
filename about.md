@@ -8,7 +8,7 @@ redirect_from: "cv/"
 
 I am a  passionate Programmer. I love profiling software for performance, gaining insight and taking action. I have a good knowledge of the Data structure and Algorithm. 2 months of professional trainng  experience has given me good object-oriented programming and procedural programming skills.
 
-Looking to recruit an intern? Check out my [resume](/public/files/Santhosh_Vaiyapuri_resume.pdf) and [mail](mailto:rahul10.pu@gmail.com) me if you like my profile.
+Looking to recruit an intern? Check out my [resume](/public/.pdf) and [mail](mailto:rahul10.pu@gmail.com) me if you like my profile.
 
 ## Personally
 

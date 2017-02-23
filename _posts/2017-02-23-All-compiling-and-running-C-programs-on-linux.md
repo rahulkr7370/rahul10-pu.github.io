@@ -1,18 +1,30 @@
 Steps to Compile and Execute C Program in Linux Using GCC :--
+
+
 --> Before talking of compiling and running C program in Linux let's see why C is so popular ever since it was created. He was the Dennis Ritchie who developed C language in 1969 to 1973. C was developed from the beginning as the system programming language for UNIX. Most of the UNIX kernel, and all of its supporting tools and libraries, were written in C. Initially, C was designed to implement the UNIX operating system. Later other folks found it useful for their programs without any hindrance, and they began using it. Even today, C is the first choice for system-level programming. This tutorial explains compilation and execution of C program is in detail.
 Compile C Program in Linux - A Classic example Hello World! :--
+
+
 #include <stdio.h>
 int main()
 {
 printf("hello, world!\n");
 }
 /* helloworld.c */
+
+
 ---> To compile and run this C program every part of the system has to perform in concert. In order to compile above C program in Linux, we will start right from the creation of the program. The 'Hello World!' program starts its life as a source file which is created with help of a text editor and saved as helloworld.c. The helloworld.c program code is stored in a file as a sequence of bytes. Each byte has a value corresponding to some character. The first byte has the value 35 that corresponds to the character '#', for example. Likewise, the second byte has the integer value 105, which corresponds to the character 'i', and so on. The idea illustrates that all information in a system is represented as a bunch of bits.
+
+
 ---> To compile and run the C program helloworld.c, all C statements must be translated individually into a sequence of instructions that a machine can understand. These instructions are then packaged in a form called executable object program. There are other programs which perform this task to get the program running. On a UNIX/Linux system, the translation from source code to object code (executable) is performed by a compiler driver. Here we will compile C program by gcc.
+
+
 ---> The following command (provided that gcc is installed on your Linux box) compiles C program helloworld.c and creates an executable file called helloworld. Don't forget to set appropriate permissions to helloworld.c, so that you won't get execute permission errors.
+
 [root@host ~]# gcc helloworld.c -o helloworld
 While compiling helloworld.c the gcc compiler reads the source file helloworld.c and translates it into an executable helloworld. The compilation is performed in four sequential phases by the compilation system (a collection of four programs - preprocessor, compiler, assembler, and linker).
 Now, let's perform all four steps to compile and run C program one by one.
+
 1. Preprocessing :---
 During compilation of a C program the compilation is started off with preprocessing the directives (e.g., #include and #define). The preprocessor (cpp - c preprocessor) is a separate program in reality, but it is invoked automatically by the compiler. For example, the #include <stdio.h> command in line 1 of helloworld.c tells the preprocessor to read the contents of the system header file stdio.h and insert it directly into the program text. The result is another file typically with the .i suffix. In practice, the preprocessed file is not saved to disk unless the -save-temps option is used.
 This is the first stage of compilation process where preprocessor directives (macros and header files are most common) are expanded. To perform this step gcc executes the following command internally.

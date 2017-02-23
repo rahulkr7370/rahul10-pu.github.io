@@ -13,13 +13,13 @@ permalink:  /blog/:title
 title:            Rahul Kumar
 tagline:          'Personal Website'
 description:      'This is the Personal Webpage of Rahul Kumar. It also links to his resume and blog.'
-url:              https://rahulkr7370.github.io
+url:              https://rahul10-pu.github.io
 baseurl:          /
 
 author:
   name:           'Rahul Kumar'
-  twitter:        'iam_rahul'
-  url:            https://twitter.com/iam_rahul
+  twitter:        '@iam_rahulkr'
+  url:            https://twitter.com/iam_rahulkr
 
 # paginate:         5
 

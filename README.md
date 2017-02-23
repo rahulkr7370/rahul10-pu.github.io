@@ -1,5 +1,4 @@
-# rahulkr7370.github.io
-code for my personal website https:/rahul10-pu.github.io/
+
 
 ## Getting started
 

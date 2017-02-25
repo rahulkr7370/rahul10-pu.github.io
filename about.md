@@ -12,4 +12,4 @@ Looking to recruit an intern? Check out my [resume](/public/.pdf) and [mail](mai
 
 ## Personally
 
-I now live at [Hoshiarpur].(https://www.google.co.in/maps/@31.5184562,75.9681824,17z) My home town is [Muzaffarpur, India](https://www.google.co.in/maps/@25.9775281,85.564177,21z).
+I now live at [Hoshiarpur, Punjab].(https://www.google.co.in/maps/@31.5184562,75.9681824,17z) My home town is [Muzaffarpur,Bihar](https://www.google.co.in/maps/@25.9775281,85.564177,21z).

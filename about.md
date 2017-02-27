@@ -2,7 +2,7 @@
 layout: about
 title: About
 description: About Rahul Kumar. Both professionally and personally.
-redirect_from: "cv/"
+redirect_from: "/punlic/kk.pdf"
 ---
 ## Professionally
 

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "What Is The Difference Between Artificial Intelligence And Machine Learning?"
+description: "An intresting article i found on forbes.com"
+tags: ['diffrence','artificia; intelligence','machine learning']
+---
+
 Artificial Intelligence (AI) and Machine Learning (ML) are two very hot buzzwords right now, and often seem to be used interchangeably.
 
 They are not quite the same thing, but the perception that they are can sometimes lead to some confusion. So I thought it would be worth writing a piece to explain the difference.

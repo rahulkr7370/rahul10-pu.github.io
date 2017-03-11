@@ -6,11 +6,11 @@ Both terms crop up very frequently when the topic is Big Data, analytics, and th
 
 In short, the best answer is that:
 
-Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.
+>Artificial Intelligence is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”.
 
 And,
 
-Machine Learning is a current application of AI based around the idea that we should really just be able to give machines access to data and let them learn for themselves.
+>Machine Learning is a current application of AI based around the idea that we should really just be able to give machines access to data and let them learn for themselves.
 
 **Early Days**
 

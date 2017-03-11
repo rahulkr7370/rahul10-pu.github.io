@@ -2,7 +2,7 @@
 layout: post
 title: "What Is The Difference Between Artificial Intelligence And Machine Learning?"
 description: "An intresting article i found on forbes.com"
-tags: ['diffrence','artificia; intelligence','machine learning']
+tags: ['diffrence','artificial intelligence','machine learning']
 ---
 
 Artificial Intelligence (AI) and Machine Learning (ML) are two very hot buzzwords right now, and often seem to be used interchangeably.
@@ -19,6 +19,7 @@ And,
 
 >Machine Learning is a current application of AI based around the idea that we should really just be able to give machines access to data and let them learn for themselves.
 
+
 **Early Days**
 
 >Artificial Intelligence has been around for a long time – the Greek myths contain stories of mechanical men designed to mimic our own behavior. Very early European computers were conceived as “logical machines” and by reproducing capabilities such as basic arithmetic and memory, engineers saw their job, fundamentally, as attempting to create mechanical brains.
@@ -31,6 +32,7 @@ Neural Networks - Artificial Intelligence And Machine Learning (Source: Shutters
 
 Generalized AIs – systems or devices which can in theory handle any task – are less common, but this is where some of the most exciting advancements are happening today. It is also the area that has led to the development of Machine Learning. Often referred to as a subset of AI, it’s really more accurate to think of it as the current state-of-the-art.
 
+
 **The Rise of Machine Learning** 
 
 Two important breakthroughs led to the emergence of Machine Learning as the vehicle which is driving AI development forward with the speed it currently has.
@@ -40,6 +42,7 @@ Two important breakthroughs led to the emergence of Machine Learning as the vehi
 >The second, more recently, was the emergence of the internet, and the huge increase in the amount of digital information being generated, stored, and made available for analysis.
 
 >Once these innovations were in place, engineers realized that rather than teaching computers and machines how to do everything, it would be far more efficient to code them to think like human beings, and then plug them into the internet to give them access to all of the information in the world.
+
 
 **Neural Networks**
 
@@ -54,6 +57,7 @@ Two important breakthroughs led to the emergence of Machine Learning as the vehi
 >These are all possibilities offered by systems based around ML and neural networks. Thanks in no small part to science fiction, the idea has also emerged that we should be able to communicate and interact with electronic devices and digital information, as naturally as we would with another human being. To this end, another field of AI – Natural Language Processing (NLP) – has become a source of hugely exciting innovation in recent years, and one which is heavily reliant on ML.
 
 >NLP applications attempt to understand natural human communication, either written or spoken, and communicate in return with us using similar, natural language. ML is used here to help machines understand the vast nuances in human language, and to learn to respond in a way that a particular audience is likely to comprehend.
+
 
 **A Case Of Branding?**
 

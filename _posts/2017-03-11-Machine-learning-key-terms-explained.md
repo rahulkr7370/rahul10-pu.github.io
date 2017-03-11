@@ -1,10 +1,11 @@
-This is the first in a series of such posts on KDnuggets which will offer concise explanations of a related set of terms (machine learning, in this case), specifically taking a no-frills approach for those looking to isolate and define. After some thought, it was determined that these foundational-yet-informative types of posts have not been given enough exposure in the past, with future iterations likely to include:
+As I have started learning about **MACHINE LEARNING**,I gathered some key terms of ML with future iterations likely to include:
 
 * Deep Learning
 * Natural Language Processing
 * Data Mining and Data Science
 * Other interesting topics we can think of :)
-Not enough information provided in these definitions for you? No worries, since each term listed links to related posts on KDnuggets for further investigation.
+
+Not enough information provided in these definitions for you? No worries, since each term listed links to related posts on wikipedea for further investigation.
 
 ![ML wordcloud](/public/images/ml-wordcloud.jpg)
 
@@ -54,7 +55,7 @@ So, let's start with a look at machine learning and related topics.
  
 >Deep learning is a relatively new term, although it has existed prior to the dramatic uptick in online searches of late. Enjoying a surge in research and industry, due mainly to its incredible successes in a number of different areas, deep learning is the process of applying deep neural network technologies - that is, neural network architectures with multiple hidden layers of neurons - to solve problems. Deep learning is a process, like data mining, which employs deep neural network architectures, which are particular types of machine learning algorithms.
 
-![Deep learning](rahul10-pu.github.io/public/images/cnn-architecture.jpg)
+![Deep learning](/public/images/cnn-architecture.jpg)
 
 **10. Reinforcement Learning**
  

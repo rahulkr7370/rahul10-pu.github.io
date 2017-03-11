@@ -25,7 +25,7 @@ Neural Networks - Artificial Intelligence And Machine Learning (Source: Shutters
 
 Generalized AIs – systems or devices which can in theory handle any task – are less common, but this is where some of the most exciting advancements are happening today. It is also the area that has led to the development of Machine Learning. Often referred to as a subset of AI, it’s really more accurate to think of it as the current state-of-the-art.
 
-The Rise of Machine Learning 
+**The Rise of Machine Learning** 
 
 Two important breakthroughs led to the emergence of Machine Learning as the vehicle which is driving AI development forward with the speed it currently has.
 
@@ -58,6 +58,4 @@ Artificial Intelligence – and in particular today ML certainly has a lot to of
 
 Machine Learning has certainly been seized as an opportunity by marketers. After AI has been around for so long, it’s possible that it started to be seen as something that’s in some way “old hat”  even before its potential has ever truly been achieved. There have been a few false starts along the road to the “AI revolution”, and the term Machine Learning certainly gives marketers something new, shiny and, importantly, firmly grounded in the here-and-now, to offer.
 
-The fact that we will eventually develop human-like AI has often been treated as something of an inevitability by technologists. Certainly, today we are closer than ever and we are moving towards that goal with increasing speed. Much of the exciting progress that we have seen in recent years is thanks to the fundamental changes in how we envisage AI working, which have been brought about by ML. I hope this piece has helped a few people understand the distinction between AI and ML. In my next piece on this subject I intend to go deeper – literally – as I explain the theories behind another trending buzzword – Deep Learning.
-
-Bernard Marr is a best-selling author & keynote speaker on business, technology and big data. His new book is Data Strategy. To read his future posts simply join his network here.
+The fact that we will eventually develop human-like AI has often been treated as something of an inevitability by technologists. Certainly, today we are closer than ever and we are moving towards that goal with increasing speed. Much of the exciting progress that we have seen in recent years is thanks to the fundamental changes in how we envisage AI working, which have been brought about by ML. I hope this piece has helped a few people understand the distinction between AI and ML. 

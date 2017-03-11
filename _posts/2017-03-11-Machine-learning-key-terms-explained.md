@@ -1,4 +1,4 @@
-As I have started learning about **MACHINE LEARNING**,I gathered some key terms of ML with future iterations likely to include:
+As I have started learning about **MACHINE LEARNING**, I gathered some key terms of ML with future iterations likely to include:
 
 * Deep Learning
 * Natural Language Processing

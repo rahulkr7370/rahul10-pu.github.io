@@ -7,29 +7,30 @@ This is the first in a series of such posts on KDnuggets which will offer concis
 Not enough information provided in these definitions for you? No worries, since each term listed links to related posts on KDnuggets for further investigation.
 
 ![ML wordcloud](/public/images/ml-wordcloud.jpg)
+
 So, let's start with a look at machine learning and related topics.
 
 **1. Machine Learning**
  
->According to Mitchell, machine learning is "concerned with the question of how to construct computer programs that automatically improve with experience." Machine learning is interdisciplinary in nature, and employs techniques from the fields of computer science, statistics, and artificial intelligence, among others. The main artefacts of machine learning research are algorithms which facilitate this automatic improvement from experience, algorithms which can be applied in such diverse fields as computer vision, artificial intelligence, and data mining.
+>[According to Mitchell](http://www.cs.cmu.edu/~tom/mlbook.html), machine learning is "concerned with the question of how to construct computer programs that automatically improve with experience." Machine learning is interdisciplinary in nature, and employs techniques from the fields of computer science, statistics, and artificial intelligence, among others. The main artefacts of machine learning research are algorithms which facilitate this automatic improvement from experience, algorithms which can be applied in such diverse fields as computer vision, artificial intelligence, and data mining.
 
 **2. Classification**
  
->Classification is concerned with building models that separate data into distinct classes. These models are built by inputting a set of training data for which the classes are pre-labelled in order for the algorithm to learn from. The model is then used by inputting a different dataset for which the classes are withheld, allowing the model to predict their class membership based on what it has learned from the training set. Well-known classification schemes include decision trees and support vector machines. As this type of algorithm requires explicit class labelling, classification is a form of supervised learning.
+>Classification is concerned with building models that separate data into distinct classes. These models are built by inputting a set of training data for which the classes are pre-labelled in order for the algorithm to learn from. The model is then used by inputting a different dataset for which the classes are withheld, allowing the model to predict their class membership based on what it has learned from the training set. Well-known classification schemes include **decision trees** and **support vector machines**. As this type of algorithm requires explicit class labelling, classification is a form of **supervised learning**.
 
 **3. Regression**
  
->Regression is very closely related to classification. While classification is concerned with the prediction of discrete classes, regression is applied when the "class" to be predicted is made up of continuous numerical values. Linear regression is an example of a regression technique.
+>Regression is very closely related to classification. While classification is concerned with the prediction of discrete classes, regression is applied when the "class" to be predicted is made up of continuous numerical values. **Linear regression** is an example of a regression technique.
 
 **4. Clustering**
  
->Clustering is used for analyzing data which does not include pre-labeled classes, or even a class attribute at all. Data instances are grouped together using the concept of "maximizing the intraclass similarity and minimizing the interclass similarity," as concisely described by Han, Kamber & Pei. This translates to the clustering algorithm identifying and grouping instances which are very similar, as opposed to ungrouped instances which are much less-similar to one another. k-means clustering is perhaps the most well-known example of a clustering algorithm. As clustering does not require the pre-labeling of instance classes, it is a form of unsupervised learning, meaning that it learns by observation as opposed to learning by example.
+>Clustering is used for analyzing data which does not include pre-labeled classes, or even a class attribute at all. Data instances are grouped together using the concept of "maximizing the intraclass similarity and minimizing the interclass similarity," as concisely described by [Han, Kamber & Pei](http://hanj.cs.illinois.edu/bk3/). This translates to the clustering algorithm identifying and grouping instances which are very similar, as opposed to ungrouped instances which are much less-similar to one another. **k-means** clustering is perhaps the most well-known example of a clustering algorithm. As clustering does not require the pre-labeling of instance classes, it is a form of **unsupervised learning**, meaning that it learns by observation as opposed to learning by example.
 
+![Clusters](/public/images/clusters.jpg)
 
-Clusters
 **5. Association**
  
->Association is most easily explained by introducing market basket analysis, a typical task for which it is well-known. Market basket analysis attempts to identify associations between the various items that have been chosen by a particular shopper and placed in their market basket, be it real or virtual, and assigns support and confidence measures for comparison. The value of this lies in cross-marketing and customer behavior analysis. Association is a generalization of market basket analysis, and is similar to classification except that any attribute can be predicted in association. Apriori enjoys success as the most well-known example of an association algorithm. Association is another example of unsupervised learning.
+>Association is most easily explained by introducing market basket analysis, a typical task for which it is well-known. Market basket analysis attempts to identify associations between the various items that have been chosen by a particular shopper and placed in their market basket, be it real or virtual, and assigns support and confidence measures for comparison. The value of this lies in cross-marketing and customer behavior analysis. Association is a generalization of market basket analysis, and is similar to classification except that any attribute can be predicted in association. **Apriori** enjoys success as the most well-known example of an association algorithm. Association is another example of **unsupervised learning**.
 
 **6. Decision Trees**
  
@@ -43,7 +44,8 @@ Clusters
 
 >The grand idea with SVMs is that, with a high enough number of dimensions, a hyperplane separating 2 classes can always be found, thereby delineating dataset member classes. When repeated a sufficient number of times, enough hyperplanes can be generated to separate all classes in n-dimension space.
 
-SVM
+![SVM](/public/images/support-vector.png)
+
 **8. Neural Networks**
  
 >Neural networks are algorithms inspired by the biological brain, although the extent to which they capture actual brain functionality is highly controversial, and claims that they model the biological brain are patently false. Neural networks are made up of numerous interconnected conceptualized artificial neurons, which pass data between themselves, and which have associated weights which are tuned based upon the newtork's "experience." Neurons have activation thresholds which, if met by a combination of their associated weights and data passed to them, are fired; combinations of fired neurons result in "learning."
@@ -52,10 +54,11 @@ SVM
  
 >Deep learning is a relatively new term, although it has existed prior to the dramatic uptick in online searches of late. Enjoying a surge in research and industry, due mainly to its incredible successes in a number of different areas, deep learning is the process of applying deep neural network technologies - that is, neural network architectures with multiple hidden layers of neurons - to solve problems. Deep learning is a process, like data mining, which employs deep neural network architectures, which are particular types of machine learning algorithms.
 
-Deep learning
+![Deep learning](rahul10-pu.github.io/public/images/cnn-architecture.jpg)
+
 **10. Reinforcement Learning**
  
->Bishop best describes reinforcement learning in a single concise sentence: "Reinforcement learning is concerned with the problem of finding suitable actions to take in a given situation in order to maximize a reward." Reinforcement algorithms are not given explicit goals; instead, they are forced to learn these optimal goals by trial and error. Think of the classic Mario Bros. video game; reinforcement learning algorithms would, by trial and error, determine that certain movements and button pushes would advance the player's standing in the game, and trial and error would aim to result in an optimal state of game play.
+>[Bishop](http://research.microsoft.com/en-us/um/people/cmbishop/prml/) best describes reinforcement learning in a single concise sentence: "Reinforcement learning is concerned with the problem of finding suitable actions to take in a given situation in order to maximize a reward." Reinforcement algorithms are not given explicit goals; instead, they are forced to learn these optimal goals by trial and error. Think of the classic Mario Bros. video game; reinforcement learning algorithms would, by trial and error, determine that certain movements and button pushes would advance the player's standing in the game, and trial and error would aim to result in an optimal state of game play.
 
 **11. (k-fold) Cross-validation**
  

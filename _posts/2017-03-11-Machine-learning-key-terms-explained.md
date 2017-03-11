@@ -6,7 +6,7 @@ This is the first in a series of such posts on KDnuggets which will offer concis
 * Other interesting topics we can think of :)
 Not enough information provided in these definitions for you? No worries, since each term listed links to related posts on KDnuggets for further investigation.
 
-![ML wordcloud](/rahul10-pu.github.io/ml-wordcloud.jpg)
+![ML wordcloud](/public/images/ml-wordcloud.jpg)
 So, let's start with a look at machine learning and related topics.
 
 **1. Machine Learning**
